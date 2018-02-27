@@ -1,0 +1,377 @@
+*{}
+
+.main-block h2.text-center {
+    font-size: 34px;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #9ae2ae;
+    text-transform: uppercase;
+    margin: 56px 0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.wp-top3 p.alert.alert-danger.text-center {
+    margin-bottom: 0;
+}
+
+.wp-top3 .book-detail img.img-responsive {
+    height: 200px;
+    width: 100%;
+}
+.banner2-right .card-group img.img-responsive.img-thumbnail {
+    height: 300px;
+    width: 100%;
+}
+
+.wp-top3 .wp-top3-2 .wp-top32 p:hover a {
+    color: red;
+}
+
+.img-main .xanh {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: -webkit-linear-gradient(45deg, rgba(120, 115, 115, 0.05) 0% , rgba(122, 128, 125, 0.1)60% , rgba(202, 220, 228, 0.85) 90%);
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s all ease;
+}
+
+.wp-top3 .tours .img-main:hover img.card-img-top {
+    border: 10px solid #e8e5e5;
+    transform:scale3d(1,1.2,1);
+}
+
+.img-main:hover .xanh {
+    opacity: 1;
+    visibility: visible;
+}
+
+.wp-top3 .img-main {
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-modal-dangky p.text-muted.modal_qmk {
+    margin: -23px 0px -3px 400px;
+    padding: 5px 17px;
+    cursor: pointer;
+}
+
+.banner-modal-dangky p.text-muted.modal_qmk:hover {
+    text-decoration: underline;
+    color: rgba(245, 149, 0, 0.59);
+}
+
+.wp-top3 .tours .img-main img.card-img-top {
+    height: 300px;
+    transform: scale3d(1,1.1,0.9);
+    transition: 0.2s all ease;
+}
+
+.wp-top3 .tours .tours-strong {
+    height: 255px;
+}
+
+.wp-top3 input {
+    border: none;
+    border-bottom: 1px solid #8a6d3b;
+    border-left: 1px solid #bfaeae;
+}
+
+.top3-content .wp-right i {
+    cursor: pointer;
+}
+
+.wp-sum i.fa.fa-check.save {
+    color: #3342b7;
+    font-size: 17px;
+}
+
+.list-detail p.pull-left span, .list-detail p.pull-right a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.list-detail .text-top {
+    font-size: 23px;
+    color: #5549af;
+    font-weight: 600;
+}
+
+.list-detail hr.m-y-md {
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 786px) {
+   .banner2-right{
+       min-height:700px !important;
+   }
+}
+.banner2-right h4.banner2-tittle,.banner3-right h4.banner3-tittle {
+    color: red;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.banner2-right {
+    min-height: 555px;
+}
+
+span.check-code {
+    color: #000;
+    font-size: 20px;
+}
+
+.tours-strong h4.card-title {
+    color: #2b2bdc;
+    font-size: 26px;
+    font-weight: 600;
+    height: 80px;
+}
+
+
+
+.tours-strong {
+    min-height: 200px;
+    padding: 15px 0 15px 15px;
+}
+
+.wp-top32 .panel-heading {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.69);
+    border-radius: 5px;
+}
+
+.banner2-right .banner-title, .banner3-right .banner-title, .book-detail .banner-title {
+    height: 40px;
+    background: #337ab7;
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.69);
+    margin-bottom: 14px;
+    color: #fff;
+    padding: 0 0 0 20px;
+}
+
+.banner1-right div#carousel-id {
+    width: 100%;
+    height: 453px;
+}
+
+.banner1-right div#carousel-id img {
+    height: 453px;
+    width:100%;
+}
+
+.wp-top31 .panel-body {
+    min-height: 400px;
+}
+
+.wp-top31 .panel-heading {
+    height: 50px;
+    font-size: 23px;
+}
+
+.wp-top31 .panel-heading h3.panel-title {
+    padding: 7px 0;
+}
+
+.wp-top31 {
+    height: 500px;
+}
+
+.banner1-right {
+    min-height: 500px;
+}
+
+.jumbotron img {
+}
+
+.jumbotron {
+    padding: 0 !important;
+}
+
+.wp-top3 {
+    padding: 50px 0 0 0;
+    min-height: 900px;
+}
+.wp-sum {
+    padding-bottom: 40px;
+}
+
+.wp-right {
+    float: right;
+    width: 15%;
+    text-align: right;
+}
+
+.wp-information .wp-left {
+    width: 30%;
+    float: left;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: roboto;
+    font-size: 14px;
+}
+
+.wp-information .wp-between {width: 55%;float: left;}
+
+.wp-information {
+    padding: 4px 29px;
+    clear: both;
+    line-height: 40px;
+    min-height: 50px;
+}
+
+.top3-content {
+    border: 1px solid #dedede;
+}
+
+.top3-content h4 {
+    padding: 10px 10px 10px 14px;
+    font-size: 22px;
+    font-family: roboto;
+    border-bottom: 4px solid #dedede;
+}
+
+.wp-top3 li.list-group-item a {
+    transition: 0.2s all cubic-bezier(0.25, 0.1, 0, 1.3);
+    color: #000;
+}
+
+.wp-top3 li.list-group-item:hover {
+    color: #d8312e;
+}
+
+.wp-information.text-center {
+    margin-top: 50px;
+}
+
+.footer1 {
+    margin-top: 60px;
+}
+
+hr.m-y-md {
+    margin-bottom: 49px;
+}
+
+.tours hr.m-y-md {
+    margin-bottom: 3%;
+}
+
+.wp-top3 h3.wp-h3top {
+    padding-top:40px;
+    font-weight: 500;
+    font-size: 37px;
+    text-shadow: 1px 2px 3px #d69393;
+    text-transform: uppercase;
+}
+
+
+.wp-top3 li.list-group-item.wp-active {
+    color: red;
+}
+
+.wp-top2 a.navbar-brand {
+    padding-top: 18px;
+    font-size: 42px;
+}
+
+.wp-top2 a.navbar-brand:hover {
+    color: #948585;
+}
+
+.wp-top2 ul.nav.navbar-nav a {
+    min-height: 80px;
+    padding: 30px 36px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.wp-top2 ul.nav.navbar-nav li:hover a {
+    background: #fff;
+    color: #000;
+}
+
+.wp-top2 .nav .navbar-nav,.wp-top2 .navbar {
+    min-height: 80px;
+    margin-bottom: 0;
+}
+
+.bg-big {
+    background: url('../images/menu_corner.png') no-repeat right;
+    min-height: 80px;
+}
+
+.wp-top2 {
+    background: rgba(40, 159, 206, 0.83);
+    min-height: 80px;
+    box-shadow: 0px 3px 4px 0px rgba(154, 144, 144, 0.73);
+}
+
+.wp-top1 .wp-search {
+    margin-top: 10%;
+}
+
+.wp-top1 input#formGroupExampleInput {
+    width: 63%;
+    margin-top:10%;
+}
+
+.wp-top1 .wp-content {
+    padding: 20px 0;
+}
+
+.wp-top1 {
+    min-height: 160px;
+}
+
+.wp-top nav.navbar.navbar-default {
+    margin-bottom: 0;
+}
+.footer1{
+    padding:30px 0;
+}
+footer {
+    background: url('../images/sv-bg.png') no-repeat center;
+    background-size: cover;
+}
+
+footer span.kfc-fix {
+    height: 50px;
+    width: 50px;
+    background: #aba1a1;
+    border-radius:50%;
+    line-height:50px;
+    font-size:23px;
+    color: #201717;
+}
+
+footer span.kfc-fix:hover {
+    background: #cfc6c6;
+    color: #2045b4;
+}
+
+footer .footer-w {
+    padding: 10px 0px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+}
+
+footer .footer-w h3 {
+    font-size: 43px;
+}
+
+footer .footer1 {
+    background: rgba(0, 0, 0, 0.84);
+    color: rgba(252, 252, 252, 0.98);
+}
